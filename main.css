@@ -1,0 +1,43 @@
+.logo {
+    width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    margin-left: 100px;
+}
+
+.transicion {
+    width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    margin-left: 100px;
+    opacity: 1;
+    animation-name: fade-in;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+}
+
+@keyframes fade-in {
+    0% {
+        transform: translateX(-800px);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateX(-50px);
+        opacity: .5;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+a:hover{
+    color: black ;
+}
