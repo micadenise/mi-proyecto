@@ -1,3 +1,24 @@
+
+ body {
+    height: 665px;
+    /* para poner una imagen, ingresar su carpeta + nombre! */
+    background-image: url(fotos/fondo1.jpg);
+    /* la foto ocupa toda la pag */
+    background-size: cover;
+    /* la foto queda estática y el text de mueve */
+    background-attachment: fixed;
+    padding: 5px 10px 20px 25px;
+    margin: 5px;
+ 
+ }
+
+html {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* HEADER, LOGO */
 .logo {
     width: 250px;
     height: 150px;
@@ -41,3 +62,105 @@
 a:hover{
     color: black ;
 }
+
+/* MAIN */
+/* ENCABEZADOS */
+.fuente-encabezados {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 500; 
+    color: rgb(212, 203, 219);
+    text-shadow: 0.1em 0.1em rgb(48, 22, 73);
+    text-decoration: underline;
+}
+
+/* TEXTOS */
+
+
+/* PRODUCTOS */
+.fuente-textos {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 550; 
+        color: rgb(219, 210, 224);
+}
+
+.nombres-productos {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.1em 0.1em rgb(114, 76, 151);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+ }
+
+/* IMÁGENES */
+.todas-imagenes {
+    width: 950px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todas-imagenes div {
+    height: 350px;
+    width: 10px;
+}
+
+.imagen-masc-pestañas {
+    /* largo de img */
+    height: 200px;
+    /* ancho de img */
+    width: 150px;
+}
+
+.imagen-labiales {
+    height: 200px;
+    width: 200px;
+}
+
+.imagen-iluminador {
+    height: 200px;
+}
+
+.imagen-rubor {
+    height: 200px;
+    width: 200px;
+}
+
+.imagen-sombras {
+    height: 200px;
+
+}
+
+/* TABLA */
+.tabla {
+    border: solid 3px rgb(226, 219, 236);
+    /* border-style: solid; */
+    /* grosor: */
+    /* border-width: 3px;  */
+    /* color de los bordes */
+    /* border-color: rgb(226, 219, 236); */
+    /* forma del borde */
+    border-radius: 4px;
+    padding: 10px;
+    height: 80px;
+    width: 500px;
+}
+
+/* LISTAS
+.fuente-lista {
+    display: flex;
+    width: 300px;
+    margin-left: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 500px; 
+    text-shadow: 0.1em 0.1em rgb(48, 22, 73);
+    color: rgb(241, 232, 232);
+    
+} */
