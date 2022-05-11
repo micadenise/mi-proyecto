@@ -1,6 +1,6 @@
 
  body {
-    height: 665px;
+    min-height: 100%;
     /* para poner una imagen, ingresar su carpeta + nombre! */
     background-image: url(fotos/fondo1.jpg);
     /* la foto ocupa toda la pag */
@@ -14,8 +14,6 @@
 
 html {
     height: 100%;
-    margin: 0px;
-    padding: 0px;
 }
 
 @media screen and (min-width: 768px) {
@@ -132,10 +130,7 @@ a:hover{
     justify-content: space-between;
 }
 
-.todas-imagenes div {
-    height: 350px;
-    width: 10px;
-}
+
 
 .imagen-masc-pestañas {
     /* largo de img */
@@ -238,4 +233,91 @@ a:hover{
     margin-top: 20px;
 }
 
+@media screen and (min-width: 1024px) {
+    .header-index {
+        width: 100%;
 
+        display: grid;
+        grid-template-areas:
+        "logo"
+        "nav";
+    }
+
+    .logo {
+        width: 150px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        margin-top: auto;
+        margin-left: 10px;
+    }
+
+    .logo {
+        grid-area: logo;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin: 20px;
+        padding: 5px 0px;
+    }
+
+    .todas-imagenes {
+        width: 100%;
+
+        display: grid;
+        grid-template-areas: 
+         "producto1"
+         "producto2"
+         "producto3"
+         "producto4"
+         "producto5";
+    }
+
+    .producto1 {
+        grid-area: producto1;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        margin: 20px;
+        padding: 5px 0px;
+    }
+
+    .producto2 {
+        grid-area: producto2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        padding: 5px 0px;
+    }
+
+    .producto3 {
+        grid-area: producto3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        padding: 5px 0px;
+    }
+
+    .producto4 {
+        grid-area: producto4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        padding: 5px 0px;
+    }
+
+    .producto5 {
+        grid-area: producto5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        padding: 5px 0px;
+    }
+
+    
+}
