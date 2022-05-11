@@ -63,6 +63,29 @@ a:hover{
     color: black ;
 }
 
+
+
+.color-nav {
+    /* background: linear-gradient(rgba(5,7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(./fotos/fondo1.jpg) */
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(./fotos/fondo1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.links {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
+}
+   
+.links:hover {
+    transform: scale(1.1);
+}
+
+
+
+
 /* MAIN */
 /* ENCABEZADOS */
 .fuente-encabezados {
@@ -137,6 +160,10 @@ a:hover{
 
 }
 
+.animacion:hover {
+    transform: scale(1.1);
+}
+
 /* TABLA */
 .tabla {
     border: solid 3px rgb(226, 219, 236);
@@ -164,3 +191,39 @@ a:hover{
     color: rgb(241, 232, 232);
     
 } */
+
+/* FOOTER */
+.color-footer {
+    color: bisque!important;
+}
+
+/* PAG CONTACTOS */
+/* LOGOS */
+.logo-apps {
+    height: 50px;
+    margin: 15px;
+}
+
+.tabla-textos, .tabla-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 70%;
+    margin: 50px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(2, 80px);
+}
+
+.nombre-redes {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+
+
+
+
