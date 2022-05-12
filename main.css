@@ -20,13 +20,12 @@ html {
     
 }
 /* HEADER, LOGO */
-.logo {
+.logo img{
     width: 250px;
     height: 150px;
     display: flex;
     align-items: center;
-    margin-top: auto;
-    margin-left: 100px;
+    
 }
 
 .transicion {
@@ -35,7 +34,7 @@ html {
     display: flex;
     align-items: center;
     margin-top: auto;
-    margin-left: 100px;
+    margin-left: 50px;
     opacity: 1;
     animation-name: fade-in;
     animation-iteration-count: 1;
@@ -122,15 +121,6 @@ a:hover{
  }
 
 /* IMÁGENES */
-.todas-imagenes {
-    width: 950px;
-    flex-wrap: wrap;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
 
 .imagen-masc-pestañas {
     /* largo de img */
@@ -158,6 +148,9 @@ a:hover{
 
 }
 
+
+
+
 .animacion:hover {
     transform: scale(1.1);
 }
@@ -174,7 +167,9 @@ a:hover{
     border-radius: 4px;
     padding: 10px;
     height: 80px;
-    width: 500px;
+    width: 80px;
+    
+    
 }
 
 /* LISTAS
@@ -244,12 +239,12 @@ a:hover{
     }
 
     .logo {
-        width: 150px;
-        height: 100px;
+        width: 250px;
+        height: 150px;
         display: flex;
         align-items: center;
         margin-top: auto;
-        margin-left: 10px;
+        margin-left: 100px;
     }
 
     .logo {
@@ -262,62 +257,51 @@ a:hover{
         padding: 5px 0px;
     }
 
-    .todas-imagenes {
-        width: 100%;
-
-        display: grid;
-        grid-template-areas: 
-         "producto1"
-         "producto2"
-         "producto3"
-         "producto4"
-         "producto5";
-    }
-
-    .producto1 {
-        grid-area: producto1;
-        display: flex;
-        justify-content:space-around;
-        align-items: center;
-        margin: 20px;
-        padding: 5px 0px;
-    }
-
-    .producto2 {
-        grid-area: producto2;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 20px;
-        padding: 5px 0px;
-    }
-
-    .producto3 {
-        grid-area: producto3;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 20px;
-        padding: 5px 0px;
-    }
-
-    .producto4 {
-        grid-area: producto4;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 20px;
-        padding: 5px 0px;
-    }
-
-    .producto5 {
-        grid-area: producto5;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 20px;
-        padding: 5px 0px;
-    }
-
     
+    .todas-imagenes {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
+    
+    .imagen-masc-pestañas {
+        /* largo de img */
+        height: 200px;
+        /* ancho de img */
+        width: 150px;
+    }
+    
+    .imagen-labiales {
+        height: 200px;
+        width: 200px;
+    }
+    
+    .imagen-iluminador {
+        height: 200px;
+    }
+    
+    .imagen-rubor {
+        height: 200px;
+        width: 200px;
+    }
+    
+    .imagen-sombras {
+        height: 200px;
+    
+    }
+
+    .tabla {
+        border: solid 3px rgb(226, 219, 236);
+        /* border-style: solid; */
+        /* grosor: */
+        /* border-width: 3px;  */
+        /* color de los bordes */
+        /* border-color: rgb(226, 219, 236); */
+        /* forma del borde */
+        border-radius: 4px;
+        padding: 10px;
+        height: 80px;
+        width: 500px;
+    }
 }
