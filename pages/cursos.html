@@ -14,31 +14,32 @@
 <body class="fondo-nosotros">
 
 
-    <header>
-
-        <!-- INICIO NAVBAR -->
-        <nav class="navbar navbar-expand-lg navbar-light cambioscss color-nav">
-            <div class="container-fluid ">
-      
-                <a class="navbar-brand logo" href="../index.html">
-                  <img class="logo transicion" src="../fotos/logo-mg.png" alt="logo empresa">
-                  </a>
-              
-      
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav mx-auto fuente-nav">
-                  <a class="nav-link active mx-auto links" aria-current="page" href="../index.html">Home</a>
-                  <a class="nav-link active mx-auto links" aria-current="page" href="../pages/contacto.html">Contacto</a>
-                  <a class="nav-link active mx-auto links" aria-current="page" href="../pages/cursos.html">Cursos</a>
-                  <a class="nav-link active mx-auto links" aria-current="page" href="">Disabled</a>
-                </div>
-              </div>
+  <header>
+    
+    <!-- INICIO NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light cambioscss color-nav">
+        <div class="container-fluid ">
+  
+            <a class="navbar-brand logo" href="../index.html">
+              <img class="logo transicion" src="../fotos/logo-mg.png" alt="logo empresa">
+              </a>
+          
+  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav mx-auto fuente-nav">
+              <a class="nav-link active mx-auto links" aria-current="page" href="../index.html">Home</a>
+              <a class="nav-link active mx-auto links" aria-current="page" href="../pages/contacto.html">Contacto</a>
+              <a class="nav-link active mx-auto links" aria-current="page" href="../pages/cursos.html">Cursos</a>
+              <a class="nav-link active mx-auto links" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
+              <a class="nav-link active mx-auto links" aria-current="page" href="../pages/objetivos.html">Objetivos</a>
             </div>
-          </nav>
-   </header>
+          </div>
+        </div>
+      </nav>
+</header>
 
 
    <div>
@@ -51,7 +52,7 @@
             <h2 class="fuente-textos">Te presentamos los cursos de Make Up que tenemos para ofrecerte!</h2>
         </div>
     </section>
-    <section>
+    <section class="acordeon">
         <div class="fuente-lista">
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
@@ -61,7 +62,7 @@
                     </button>
                   </h2>
                   <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">HORARIOS: Lunez y Miércoles de 14 a 16 hs. </div>
+                    <div class="accordion-body">HORARIOS: Lunes y Miércoles de 14 a 16 hs. </div>
                   </div>
                 </div>
                 <div class="accordion-item">
@@ -86,20 +87,22 @@
                 </div>
               </div>
     </section>
-    <section>
-            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/t2eoyi-AA-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section class="video-curso">
+      <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/t2eoyi-AA-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </section>
     <section>
         <h2 class="fuente-encabezados">¡Anotate a nuestros cursos!</h2>
-    <div>
+    <div class="fuente-textos">
         <label for="">Correo electrónico</label><br>
         <input type="text">
     </div>
     
-    <div>
+    <div class="fuente-textos">
         <label for="">Teléfono</label><br>
         <input type="text">
-     <div>
+     <div class="fuente-textos">
             <label for="">Curso elegido</label><br>
             <textarea name="" id="" cols="30" rows="10"></textarea>
             <input type="button" value="Enviar">
@@ -107,13 +110,11 @@
     </section>
 </main>
     
-<footer class="text-center text-lg-start text-muted footer color-footer">
-    <section
-      class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
-    >
-      <div class="me-5 d-none d-lg-block">
-        <span>CONTACTANOS MEDIANTE NUESTRO INSTAGRAM: <a href="https://www.instagram.com/" class="text-reset">@mgmakeup</a></span>
-      </div>
+<footer class="text-center text-lg-start text-muted footer color-footer d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+  <div class="me-5 d-none d-lg-block">
+    <span>CONTACTANOS MEDIANTE NUESTRO INSTAGRAM: <a href="https://www.instagram.com/" class="text-reset">@mgmakeup</a></span>
+  </div>
+</footer>
 
 
 
